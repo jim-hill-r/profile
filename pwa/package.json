@@ -11,6 +11,10 @@
     "build": "echo \"No image build required yet.\"",
     "serve": "echo \"No image serve required yet.\""
   },
+  "files": [
+    "public/**/*",
+    "package.json"
+  ],
   "devDependencies": {
     "gatsby": "^4.4.0",
     "gatsby-cli": "^4.4.0",
