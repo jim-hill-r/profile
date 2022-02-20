@@ -3,13 +3,10 @@
   "description": "Jim Hill R's Profile Site",
   "author": "jim.hill.r@gmail.com",
   "scripts": {
-    "preinstall": "echo \"No preinstall required yet.\"",
-    "postinstall": "echo \"No postinstall required yet.\"",
-    "start": "gatsby develop",
-    "compile": "gatsby build",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
     "test": "echo \"No tests specified yet.\"",
-    "build": "echo \"No image build required yet.\"",
-    "serve": "echo \"No image serve required yet.\""
+    "serve": "gatsby serve"
   },
   "files": [
     "public/**/*",
