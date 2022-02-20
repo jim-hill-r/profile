@@ -31,5 +31,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: ${GITHUB_SHA}
+          name: ${{github.sha}}
           path: pwa/public
