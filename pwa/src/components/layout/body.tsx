@@ -3,7 +3,7 @@ import { Container } from '@mui/material';
 
 export default function Body ({ children } : { children : any}) {
   return (
-    <Container maxWidth="lg" disableGutters={true}>
+    <Container maxWidth="xl" disableGutters={true}>
       <main>
         {children}
       </main>

@@ -3,7 +3,7 @@ import { Container } from '@mui/material';
 
 export default function Footer () {
   return (
-      <Container maxWidth="lg">
+      <Container maxWidth="xl">
       </Container>
   )
 }
