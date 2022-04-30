@@ -41,7 +41,7 @@ export default function IndexPage() {
             <CardMedia
               component="img"
               height="140"
-              image="/images/responsible-computing.jpg"
+              image="/images/health-and-wellness.jpg"
               alt="computer chip"
             />
             <CardContent>
@@ -59,12 +59,12 @@ export default function IndexPage() {
             <CardMedia
               component="img"
               height="140"
-              image="/images/responsible-computing.jpg"
-              alt="computer chip"
+              image="/images/environmental-impact.jpg"
+              alt="forest of trees from above"
             />
             <CardContent>
               <Typography component="h5" variant="h5" align="center" >
-                Environment Impact
+                Environmental Impact
               </Typography>
               <Typography component="p" variant="body1" align="center" >
                 Climate change is the existential crisis of our generation.
@@ -77,8 +77,8 @@ export default function IndexPage() {
             <CardMedia
               component="img"
               height="140"
-              image="/images/responsible-computing.jpg"
-              alt="computer chip"
+              image="/images/educational-reform.jpg"
+              alt="book shelves"
             />
             <CardContent>
               <Typography component="h5" variant="h5" align="center" >
@@ -199,6 +199,195 @@ export default function IndexPage() {
               </Typography>
               <Typography component="p" variant="body1" align="center" >
                 Financial planning tools for everyone so they can better understand the consequences of their decisions.
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+      </Grid>
+      <Typography component="h3" variant="h3" align="center" noWrap >
+        My Technology
+      </Typography>
+      <Grid container spacing={3} columns={25}>
+        <Grid item xs={5}>
+          <Card>
+            <CardMedia
+              component="img"
+              height="140"
+              image="/images/responsible-computing.jpg"
+              alt="computer chip"
+            />
+            <CardContent>
+              <Typography component="h5" variant="h5" align="center" >
+                Julia
+              </Typography>
+              <Typography component="p" variant="body1" align="center" >
+                Energy efficient high-level language with type safety. The fundamental design will improve our ability to do science and improve our world. No language can survive without a strong ecosystem, so I hope to build that.
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={5}>
+          <Card>
+            <CardMedia
+              component="img"
+              height="140"
+              image="/images/responsible-computing.jpg"
+              alt="computer chip"
+            />
+            <CardContent>
+              <Typography component="h5" variant="h5" align="center" >
+                Rust
+              </Typography>
+              <Typography component="p" variant="body1" align="center" >
+                Memory-safe, energy-efficient systems language. I need to spend more time learning Rust, but our dependence on C is really limiting our ability to be responsbile stewards of technology for security and safety.
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={5}>
+          <Card>
+            <CardMedia
+              component="img"
+              height="140"
+              image="/images/responsible-computing.jpg"
+              alt="computer chip"
+            />
+            <CardContent>
+              <Typography component="h5" variant="h5" align="center" >
+                AWS
+              </Typography>
+              <Typography component="p" variant="body1" align="center" >
+                Amazon is too big and that is a problem, but AWS is the most environmentally responsible choice.
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={5}>
+          <Card>
+            <CardMedia
+              component="img"
+              height="140"
+              image="/images/responsible-computing.jpg"
+              alt="computer chip"
+            />
+            <CardContent>
+              <Typography component="h5" variant="h5" align="center" >
+                TypeScript
+              </Typography>
+              <Typography component="p" variant="body1" align="center" >
+                JavaScript is a disaster for our environment as well as the safety and the privacy of individuals. Unfortunetly, we have to work in the world of the internet, so TypeScript solves as many of those problems as possible.
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={5}>
+          <Card>
+            <CardMedia
+              component="img"
+              height="140"
+              image="/images/responsible-computing.jpg"
+              alt="computer chip"
+            />
+            <CardContent>
+              <Typography component="h5" variant="h5" align="center" >
+                Linux
+              </Typography>
+              <Typography component="p" variant="body1" align="center" >
+                Transparent development of the foundations our society is important.
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+      </Grid>
+      <Typography component="h3" variant="h3" align="center" noWrap >
+        My Hobbies
+      </Typography>
+      <Grid container spacing={3} columns={25}>
+        <Grid item xs={5}>
+          <Card>
+            <CardMedia
+              component="img"
+              height="140"
+              image="/images/responsible-computing.jpg"
+              alt="computer chip"
+            />
+            <CardContent>
+              <Typography component="h5" variant="h5" align="center" >
+                FIRST Robotics
+              </Typography>
+              <Typography component="p" variant="body1" align="center" >
+                Targetted education for our youth that helps that become gracious professionals while also building their awareness of technology.
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={5}>
+          <Card>
+            <CardMedia
+              component="img"
+              height="140"
+              image="/images/responsible-computing.jpg"
+              alt="computer chip"
+            />
+            <CardContent>
+              <Typography component="h5" variant="h5" align="center" >
+                NavAbility
+              </Typography>
+              <Typography component="p" variant="body1" align="center" >
+                I love reducing the burden of monotony for people. I want everyone to be unencumbered to pursue their passions. I work with NavAbility toward making the world more automated so everyone can pursue their passions.            </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={5}>
+          <Card>
+            <CardMedia
+              component="img"
+              height="140"
+              image="/images/responsible-computing.jpg"
+              alt="computer chip"
+            />
+            <CardContent>
+              <Typography component="h5" variant="h5" align="center" >
+                Space Exploration
+              </Typography>
+              <Typography component="p" variant="body1" align="center" >
+                I have always been interested in space and I believe that becoming multi-planetary is important for humanity. I just don't know yet how I can help or if it is our most pressing concern.
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={5}>
+          <Card>
+            <CardMedia
+              component="img"
+              height="140"
+              image="/images/responsible-computing.jpg"
+              alt="computer chip"
+            />
+            <CardContent>
+              <Typography component="h5" variant="h5" align="center" >
+                Physics and Math
+              </Typography>
+              <Typography component="p" variant="body1" align="center" >
+                Physics and math have always intrigued me. I would love to just spend all day working on fundamental unsolved problems in this space, but I am neither smart enough or focused enough. Instead, I am working on empowered those who are with financial freedom!
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={5}>
+          <Card>
+            <CardMedia
+              component="img"
+              height="140"
+              image="/images/responsible-computing.jpg"
+              alt="computer chip"
+            />
+            <CardContent>
+              <Typography component="h5" variant="h5" align="center" >
+                Fitness
+              </Typography>
+              <Typography component="p" variant="body1" align="center" >
+                A sound body is key to a sound mind. Through running, swimming, and climbing I find my peace in a healthy life.
               </Typography>
             </CardContent>
           </Card>
