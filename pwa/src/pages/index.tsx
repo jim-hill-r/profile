@@ -130,7 +130,7 @@ export default function IndexPage() {
                     Financial Freedom
                   </Typography>
                   <Typography component="p" variant="body1" align="center" >
-                    Not everyone is an entrapenuer. Creators and builders should be unencumbered by money to enhance their impact on the world!
+                    Not everyone is an entrepreneur. Creators and builders should be unencumbered by money to enhance their impact on the world!
                   </Typography>
                 </CardContent>
               </FullHeightCard>
