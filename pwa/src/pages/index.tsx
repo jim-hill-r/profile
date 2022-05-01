@@ -236,7 +236,7 @@ export default function IndexPage() {
           </Grid>
         </Section>
         <SectionSpacer />
-        <Section>
+        {/* <Section>
           <Header component="h4" variant="h4" align="center" noWrap >
             My Technology
           </Header>
@@ -333,7 +333,7 @@ export default function IndexPage() {
             </Grid>
           </Grid>
         </Section>
-        <SectionSpacer />
+        <SectionSpacer /> */}
         <Section>
           <Header component="h4" variant="h4" align="center" noWrap >
             My Hobbies
@@ -344,43 +344,8 @@ export default function IndexPage() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image="/images/responsible-computing.jpg"
-                  alt="computer chip"
-                />
-                <CardContent>
-                  <Typography component="h5" variant="h5" align="center" >
-                    FIRST Robotics
-                  </Typography>
-                  <Typography component="p" variant="body1" align="center" >
-                    Targetted education for our youth that helps that become gracious professionals while also building their awareness of technology.
-                  </Typography>
-                </CardContent>
-              </FullHeightCard>
-            </Grid>
-            <Grid item xs={5}>
-              <FullHeightCard>
-                <CardMedia
-                  component="img"
-                  height="140"
-                  image="/images/responsible-computing.jpg"
-                  alt="computer chip"
-                />
-                <CardContent>
-                  <Typography component="h5" variant="h5" align="center" >
-                    NavAbility
-                  </Typography>
-                  <Typography component="p" variant="body1" align="center" >
-                    I love reducing the burden of monotony for people. I want everyone to be unencumbered to pursue their passions. I work with NavAbility toward making the world more automated so everyone can pursue their passions.            </Typography>
-                </CardContent>
-              </FullHeightCard>
-            </Grid>
-            <Grid item xs={5}>
-              <FullHeightCard>
-                <CardMedia
-                  component="img"
-                  height="140"
-                  image="/images/responsible-computing.jpg"
-                  alt="computer chip"
+                  image="/images/space-exploration.jpg"
+                  alt="galaxy"
                 />
                 <CardContent>
                   <Typography component="h5" variant="h5" align="center" >
@@ -397,8 +362,44 @@ export default function IndexPage() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image="/images/responsible-computing.jpg"
-                  alt="computer chip"
+                  image="/images/fitness.jpg"
+                  alt="person running on ridgeline"
+                />
+                <CardContent>
+                  <Typography component="h5" variant="h5" align="center" >
+                    Fitness
+                  </Typography>
+                  <Typography component="p" variant="body1" align="center" >
+                    A sound body is key to a sound mind. Through running, swimming, and climbing I find my peace in a healthy life.
+                  </Typography>
+                </CardContent>
+              </FullHeightCard>
+            </Grid>
+            <Grid item xs={5}>
+              <FullHeightCard>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image="/images/natural-beauty.jpg"
+                  alt="red river gorge"
+                />
+                <CardContent>
+                  <Typography component="h5" variant="h5" align="center" >
+                    Natural Beauty
+                  </Typography>
+                  <Typography component="p" variant="body1" align="center" >
+                    I long for the beautiful vistas and natural places in this world. I want to preserve and sustain them for all generations!
+                  </Typography>
+                </CardContent>
+              </FullHeightCard>
+            </Grid>
+            <Grid item xs={5}>
+              <FullHeightCard>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image="/images/physics-and-math.jpg"
+                  alt="3d rendering of space-time"
                 />
                 <CardContent>
                   <Typography component="h5" variant="h5" align="center" >
@@ -415,15 +416,15 @@ export default function IndexPage() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image="/images/responsible-computing.jpg"
-                  alt="computer chip"
+                  image="/images/robotics-and-automation.jpg"
+                  alt="hobby robot project"
                 />
                 <CardContent>
                   <Typography component="h5" variant="h5" align="center" >
-                    Fitness
+                    Robotics and Automation
                   </Typography>
                   <Typography component="p" variant="body1" align="center" >
-                    A sound body is key to a sound mind. Through running, swimming, and climbing I find my peace in a healthy life.
+                    I love reducing the burden of monotony for people. I want everyone to be unencumbered to pursue their passions. I work with NavAbility and FIRST Robotics toward making the world more automated so everyone can pursue their passions.
                   </Typography>
                 </CardContent>
               </FullHeightCard>
@@ -432,27 +433,37 @@ export default function IndexPage() {
         </Section>
         <SectionSpacer />
         <Section>
-          <Typography component="h3" variant="h3" align="center" noWrap >
-            Build a better world with me!
-          </Typography>
-          <Typography component="h5" variant="h5" align="center" noWrap >
-            <Link to="/resume/web"> Resume </Link>
-          </Typography>
-          <Typography component="h5" variant="h5" align="center" noWrap >
-            <Link to="/blog"> Blog </Link>
-          </Typography>
-          <Typography component="h5" variant="h5" align="center" noWrap >
-            <Link to="/blog"> GitHub </Link>
-          </Typography>
-          <Typography component="h5" variant="h5" align="center" noWrap >
-            jim.hill.r@gmail.com
-          </Typography>
+          <Header component="h4" variant="h4" align="center" noWrap >
+            Join me in building a better world.
+          </Header>
+          <Grid container spacing={5} columns={20}>
+            <Grid item xs={5}>
+              <Typography component="h5" variant="h5" align="center" noWrap >
+                <Link to="/resume/web"> Resume </Link>
+              </Typography>
+            </Grid>
+            <Grid item xs={5}>
+              <Typography component="h5" variant="h5" align="center" noWrap >
+                <Link to="/blog"> Blog </Link>
+              </Typography>
+            </Grid>
+            <Grid item xs={5}>
+              <Typography component="h5" variant="h5" align="center" noWrap >
+                <Link to="https://www.github.com/jim-hill-r"> Github </Link>
+              </Typography>
+            </Grid>
+            <Grid item xs={5}>
+              <Typography component="h5" variant="h5" align="center" noWrap >
+                jim.hill.r@gmail.com
+              </Typography>
+            </Grid>
+          </Grid>
         </Section>
         <SectionSpacer />
         <Section>
-          <Typography component="h3" variant="h3" align="center" noWrap >
-            Let me know where I can improve!
-          </Typography>
+          <Header component="h4" variant="h4" align="center" noWrap >
+            Everyone makes mistakes, let me know where I can improve.
+          </Header>
           <Typography component="p" variant="body1" align="center" >
             I am a humble engineer doing my best to make the world a better place. I strive for equity. I strive for accessibility. I strive for justice. I am not perfect nor an expert in every field including software. I am highly aware that as a upper middle-class white male living in the United States that I have blind spots, so please let me know when I have missed something! Thank you so much in helping me with my personal growth and ensuring my projects serve all of humanity and not just my bubble of awareness. For the technies out there, if you think there are better technologies that align with my passions, then please let me know!
           </Typography>
