@@ -1,0 +1,6 @@
+type Brand @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  key: ID
+  value: String
+}
+ 

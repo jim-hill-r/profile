@@ -1,3 +1,5 @@
+shell:
+	nix-shell
 install:
 	cd pwa && npm install
 develop:

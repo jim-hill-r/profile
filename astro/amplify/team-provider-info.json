@@ -1,0 +1,20 @@
+{
+  "live": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wwwsparkhillxyz-live-222610-authRole",
+      "UnauthRoleArn": "arn:aws:iam::362434346239:role/amplify-wwwsparkhillxyz-live-222610-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::362434346239:role/amplify-wwwsparkhillxyz-live-222610-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-wwwsparkhillxyz-live-222610-deployment",
+      "UnauthRoleName": "amplify-wwwsparkhillxyz-live-222610-unauthRole",
+      "StackName": "amplify-wwwsparkhillxyz-live-222610",
+      "StackId": "arn:aws:cloudformation:us-east-2:362434346239:stack/amplify-wwwsparkhillxyz-live-222610/0d35bb80-41d8-11ed-837d-02289ac1014c",
+      "AmplifyAppId": "d2ot83n5yh49ow"
+    },
+    "categories": {
+      "auth": {
+        "wwwsparkhillxyz": {}
+      }
+    }
+  }
+}

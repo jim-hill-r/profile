@@ -1,0 +1,96 @@
+---
+import {frontmatter as site} from '..//content/settings/site.md'
+
+import Layout from '../layouts/layout.astro';
+import Card from '../components/card.astro';
+import Splash from '/Splash.jpg';
+import Logo from '/favicon.ico';
+---
+
+<Layout title="Reading Instruction">
+	<main>
+		<h1><span class="text-gradient">{site.title}</span> {site.subtitle}</h1>
+		<p class="instructions">
+			{site.tagline}
+		</p>
+		<ul role="list" class="link-card-grid">
+			<Card
+				href="/services"
+				title="Our Services"
+				body="What do we do?"
+			/>
+			<Card
+				href="/contact"
+				title="Contact Us"
+				body="Interested in a free consultation? Contact us today!"
+			/>
+			<Card
+				href="/about"
+				title="About us"
+				body="Why should you trust us to teach your kids?"
+			/>
+			<Card
+				href="https://blue.eel.education"
+				title="Our App"
+				body="We want to make reading accessible to everyone, so we are creating an app!"
+			/>
+		</ul>
+		<img class="splash" src={Splash} alt="image description" />
+	</main>
+</Layout>
+
+<style>
+	:root {
+		--astro-gradient: linear-gradient(0deg, #80ff00,  #528000, #0064fa, #4fedff );
+	}
+	h1 {
+		margin: 2rem 0;
+	}
+	main {
+		margin: auto;
+		padding: 1em;
+		max-width: 120ch;
+	}
+	.splash {
+		max-width: 120ch;
+	}
+	.text-gradient {
+		font-weight: 900;
+		background-image: var(--astro-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 100% 200%;
+		background-position-y: 100%;
+		border-radius: 0.4rem;
+		animation: pulse 4s ease-in-out infinite;
+	}
+	@keyframes pulse {
+		0%,
+		100% {
+			background-position-y: 0%;
+		}
+		50% {
+			background-position-y: 80%;
+		}
+	}
+	.instructions {
+		line-height: 1.6;
+		margin: 1rem 0;
+		background: #0064fa;
+		padding: 1rem;
+		border-radius: 0.4rem;
+		color: var(--color-bg);
+	}
+	.instructions code {
+		font-size: 0.875em;
+		border: 0.1em solid var(--color-border);
+		border-radius: 4px;
+		padding: 0.15em 0.25em;
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 1rem;
+		padding: 0;
+	}
+</style>
